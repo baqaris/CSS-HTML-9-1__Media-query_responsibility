@@ -1,0 +1,1268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Conteiner {
+    display: flex;
+}
+
+/*!!!!!!!!! left side !!!!!!! */
+.left_conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #14171F;
+    max-width: 300px;
+    width: 100%;
+    padding: 24px;
+}
+
+.SpaceDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.burgerLogo {
+    display: none;
+}
+
+.headerIcon {
+    display: flex;
+    gap: 12px;
+    padding: 0px 16px 16px 16px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #3D414B;
+}
+
+.headerIcon p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+.PersonelDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0px;
+    border-top: 1px solid #7D70BD;
+    border-bottom: 1px solid #7D70BD;
+
+}
+
+.persdescriprion {
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.paragrapDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.persName {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    align-self: stretch;
+}
+
+.RowDIv {
+    cursor: pointer;
+}
+
+.presStatus {
+    color: #929699;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    align-self: stretch;
+}
+
+/* !!!!!!! navigation !!! */
+
+.navConteiner {
+    display: flex;
+}
+
+.navCont {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.navContDivs {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navCont p {
+    color: #929699;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.navCont a {
+    text-decoration: none;
+}
+
+.navCont p:hover {
+    color: #5a6874;
+}
+
+
+/* !!! ANALICIT !! */
+
+.bacgroundDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+.bacground {
+    height: 1px;
+    align-self: stretch;
+    border: 1px solid #3D414B;
+    background: #24272E;
+}
+
+.analiticDIv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.analiticDIv p,
+a {
+    color: #929699;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.analiticDIv p:hover {
+    color: #5a6874;
+}
+
+.SettingDiv {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 8px;
+    border: 1px solid #7B62FF;
+    cursor: pointer;
+}
+
+.SettingDiv p {
+    color: #7B62FF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.SettingDiv:hover {
+    background: #4cd480;
+    box-shadow: 0px 0px 10px 3px rgb(88, 95, 126);
+}
+
+/* !!!!!! Right SIde  !!!!! */
+
+
+.right_conteiner {
+    padding: 24px 32px;
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    gap: 32px;
+    flex-wrap: wrap;
+
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* left headerside */
+.headerLeft {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerLeft p {
+    color: #2F2F2F;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.headerLeft p:hover {
+    color: #255731;
+}
+
+/* !right headerside !*/
+
+.headerright {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bellIcon {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 600px;
+    background: #F7F7F7;
+}
+
+.headerright p {
+    color: #2F2F2F;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.headerright p:hover {
+    color: #537e5d;
+
+}
+
+.TeacherAncor:hover {
+    background-color: #7a90ce;
+}
+
+.SearchIcon {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 600px;
+    background: #F7F7F7;
+    cursor: pointer;
+}
+
+.TeacherAncor {
+    display: flex;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid #C7C7C7;
+    background: #F7F7F7;
+}
+
+/* !!!! MAIN !!!! */
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+
+
+/*!!! bacground Cont Picture !!!*/
+
+.bacgroundCont {
+    display: flex;
+    background: url("image/backgroundIMG.svg") lightgray 50% / cover no-repeat;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #C7C7C7;
+    height: 228px;
+    flex-shrink: 0;
+    padding: 40px;
+
+}
+
+.Textes {
+    display: flex;
+    width: 416px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+
+
+}
+
+.texttune {
+    color: #2F2F2F;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+
+/* !!!!! SETTTING CONT  !!!! */
+
+.AccSettingCont {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.Settcont {
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid #C7C7C7;
+}
+
+.AccSettingCont p {
+    color: #2F2F2F;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.Settcont:hover {
+    border: 1px solid #3D414B;
+    background: #14171F;
+
+
+}
+
+.AccSettingCont p:hover {
+    color: #FFF;
+}
+
+
+/*!!!! threthPart COnteiner!!!! */
+
+.threthPart {
+    display: flex;
+    gap: 32px;
+}
+
+.Left_part {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.Meil_inform {
+    display: flex;
+    max-width: 907px;
+    width: 100%;
+    padding: 24px 16px;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    gap: 16px;
+    border-radius: 16px;
+    border: 1px solid #C7C7C7;
+}
+
+.persOnelINC {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.PerdivOS {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.persparagrap {
+    color: #14171F;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    align-self: stretch;
+}
+
+.UploadPar {
+    color: #666;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    align-self: stretch;
+}
+
+.FullnameEmailCont {
+    display: flex;
+    gap: 20px;
+}
+
+.Form_name {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.Form_email {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.ContactNumber {
+    display: flex;
+    gap: 20px;
+}
+
+.form_number {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.inpUtCOnt {
+    display: flex;
+    gap: 8px;
+}
+
+/* !!! Region NUmber !! */
+.RegionNumber {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #14171F;
+    color: #FFF;
+
+}
+
+.Birthdaycont {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Input */
+input:hover {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    border-radius: 8px;
+    border: 1px solid #7B62FF;
+    background: #E6E1FF;
+
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+
+}
+
+input[type="date"] {
+    cursor: pointer;
+}
+
+input {
+    width: 427px;
+    height: 48px;
+    padding: 12px 16px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #F9FBFC;
+    box-shadow: 0px 4px 6px 0px rgba(123, 98, 255, 0.25);
+}
+
+
+
+
+label {
+    display: flex;
+    color: #2F2F2F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.numberCont {
+    width: 355px;
+}
+
+.bacgroundinput {
+    width: 427px;
+    height: 48px;
+    padding: 12px 16px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #F9FBFC;
+    box-shadow: 0px 4px 6px 0px rgba(123, 98, 255, 0.25);
+    background-image: url("image/date.svg");
+    background-repeat: no-repeat;
+    background-position: 380px;
+    background-size: 30px;
+}
+
+.bacgroundinput:hover {
+    background-image: url("image/date.svg");
+    background-repeat: no-repeat;
+    background-position: 380px;
+    background-size: 30px;
+}
+
+
+/* !!! Button !!! */
+
+.ButonSubmit {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.ButonSubmit button {
+    display: flex;
+    width: 104px;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 8px;
+    background: #7F56D9;
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+/* !!!!! Down 2 Part !!! */
+.down_part {
+    display: flex;
+    gap: 24px;
+}
+
+.Personal_Information {
+    display: flex;
+    padding: 24px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    border-radius: 16px;
+    border: 1px solid #C7C7C7;
+    flex: 1.0.0;
+
+}
+
+.DevelopmentCont {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 12px;
+    background: #d2d6d83b;
+
+}
+
+.space_Between {
+    display: flex;
+    justify-content: space-between;
+    width: 498px;
+    height: 76px;
+
+
+}
+
+.PencilCont {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+
+/*!!!! pencilDiv !!! */
+.pencilDiv {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 600px;
+    border: 1px solid #C7C7C7;
+}
+
+.PencilDivNeigbour {
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Depart {
+    color: #666;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.Development {
+    color: #14171F;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+/* !!!!! AdditionalDiv !!! */
+.AdditionalDiv {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    padding: 24px 16px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-self: stretch;
+    border-radius: 16px;
+    border: 1px solid #c7c7c74d;
+}
+
+.spaceDiv {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.ResumeCont {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+input[type="url"] {
+    width: 100%;
+}
+
+.linkUrlsdiv {
+    display: flex;
+    gap: 8px;
+    align-items: stretch;
+}
+
+.LabelParag label {
+    color: #2F2F2F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+select {
+    display: flex;
+    width: 180px;
+    padding: 12px 16px;
+    align-items: center;
+    height: 48px;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #F9FBFC;
+    box-shadow: 0px 4px 6px 0px rgba(123, 98, 255, 0.25);
+}
+
+.SelectDiv {
+    display: flex;
+}
+
+option {
+    display: flex;
+    height: 42px;
+    padding: 10px 16px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: #D2F0FF;
+    border-radius: 8px;
+    background: #D2F0FF;
+
+}
+
+
+.LinkDiv_cont {
+    display: flex;
+    width: 84px;
+
+}
+
+/* !!!!! Right_part !!!! */
+
+.Right_part {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 16px;
+    background: #14171F;
+    flex: 1.0.0;
+
+}
+
+.PersonelIconDiv {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 12px;
+    background: #FFF;
+}
+
+.pictureicon {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.IconCont {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.PersonalLogoDIV {
+    width: 124px;
+    height: 124px;
+    background-image: url("image/personelINFicon/CameraIcon.svg"), url("image/personelINFicon/Girlsicon.svg");
+    background-repeat: no-repeat;
+    background-size: 32px, 124px;
+    background-position: center;
+    cursor: pointer;
+
+}
+
+
+.Personal_name {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.StudentCont {
+    display: flex;
+    gap: 16px;
+}
+
+.studentDIV {
+    display: flex;
+    width: 133px;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 50px;
+    border: 1px solid #C7C7C7;
+}
+
+.andriopar {
+    color: #2F2F2F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    align-self: stretch;
+}
+
+
+.parStuden {
+    color: #2F2F2F;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+/* !!! LocationCont !!!*/
+.LocationCont {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    background-color: #FFF;
+    border-radius: 12px;
+    height: 255px;
+}
+
+.LocationPar {
+    color: #2F2F2F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.LoCspace_Between {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+
+
+
+}
+
+.select_div {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+}
+
+.select_div select {
+    width: 100%;
+    display: flex;
+    padding: 12px 16px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    cursor: pointer;
+}
+
+
+
+/* !!!! about !!! */
+
+.AboutCont {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    background: #FFF;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.AboutDivspace {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.textabout {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+
+}
+
+.dedicatedcont {
+    color: #666;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    flex: 1.0.0;
+}
+
+
+
+/* !!!! Media quare for Tanlet !!! */
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    .Conteiner {
+        display: flex;
+        max-width: 1023px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .left_conteiner {
+        display: none;
+    }
+
+    .right_conteiner {
+        display: flex;
+        width: 768px;
+        padding-bottom: 61px;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        width: 704px;
+
+    }
+
+    .burgerLogo {
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+    }
+
+    header {
+        display: flex;
+        width: 704px;
+        padding: 16px 32px;
+    }
+
+    .bacgroundCont {
+        width: 704px;
+        flex-shrink: 0;
+    }
+
+    .AccSettingCont {
+        display: flex;
+        align-items: flex-start;
+        align-content: flex-start;
+        gap: 16px;
+        flex-wrap: wrap;
+        width: 704px;
+    }
+
+    .threthPart {
+        flex-wrap: wrap;
+        width: 704px;
+        gap: 24px;
+        align-self: stretch;
+
+    }
+
+    .Left_part {
+        width: 704px;
+        display: flex;
+    }
+
+    input {
+        width: 325px;
+    }
+
+    .inpUtCOnt {
+        width: 325px;
+    }
+
+    input[type="date"] {
+        width: 325px;
+    }
+
+    .space_Between {
+        width: 370px;
+    }
+
+    .AdditionalDiv {
+        width: 214px;
+    }
+
+    input[type="url"] {
+        width: 182px;
+    }
+
+    select {
+        width: 95px;
+    }
+
+    .LinkDiv_cont input[type="url"] {
+        width: 80px;
+    }
+
+    .spaceDiv {
+        width: 100%;
+    }
+
+    .Right_part {
+        display: flex;
+        padding: 16px;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        align-self: stretch;
+        border-radius: 16px;
+        background: #14171F;
+    }
+
+}
+
+
+
+/* !!!!  Media screen for smartphones !!!! */
+
+
+@media screen and (max-width: 768px) {
+
+    .Conteiner {
+        display: flex;
+        width: 320px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .left_conteiner {
+        display: none;
+    }
+
+    .burgerLogo {
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+    }
+
+
+
+
+    .right_conteiner {
+        display: flex;
+        width:100%;
+        padding-bottom: 61px;
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        width: 288px;
+
+    }
+
+    .burgerLogo {
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+    }
+
+    header {
+        display: flex;
+        width: 320px;
+        padding: 12px 16px;
+        align-items: center;
+        align-content: center;
+        gap: 12px;
+        flex-wrap: wrap;
+
+    }
+    .headerLeft{
+        gap:8px;
+    }
+
+    .headerright{
+        gap:8px;
+    }
+
+   .headerright p{
+    color: #2F2F2F;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; 
+   }
+
+    .bacgroundCont {
+        width: 288px;
+        width: 288px;
+        height: 228px;
+        flex-shrink: 0;
+    }
+
+    .AccSettingCont {
+        display: flex;
+        align-items: flex-start;
+        align-content: flex-start;
+        gap: 16px;
+        flex-wrap: wrap;
+        width: 288px;
+    }
+
+    .texttune {
+        color: #2F2F2F;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px;
+    }
+
+    .threthPart {
+        flex-wrap: wrap;
+        width: 288px;
+        gap: 24px;
+        align-self: stretch;
+
+    }
+
+    .down_part {
+        flex-wrap: wrap;
+    }
+
+    .Left_part {
+        width: 288px;
+        display: flex;
+    }
+
+    .FullnameEmailCont {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .ContactNumber {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .numberCont {
+        width: 182px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .inpUtCOnt {
+        width: 224px;
+    }
+
+    input[type="date"] {
+        width: 188px;
+    }
+
+    .space_Between {
+        width: 224px;
+        flex-wrap: wrap;
+        height: 150px;
+    }
+
+
+
+    input[type="url"] {
+        width: 100%;
+    }
+
+    select {
+        width: 124px;
+    }
+
+    .LinkDiv_cont {
+        width: 124px;
+    }
+
+    .LinkDiv_cont input[type="url"] {
+        width: 124px;
+    }
+
+    .spaceDiv {
+        width: 100%;
+    }
+
+    .studentDIV {
+        width: 100px;
+    }
+
+    .Right_part {
+        display: flex;
+        padding: 16px;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        align-self: stretch;
+        border-radius: 16px;
+        background: #14171F;
+        width: 256px;
+    }
+
+}
